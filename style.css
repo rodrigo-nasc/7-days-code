@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Menu de navegação */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 1% 0 1% 0;
+    font-family: 'Gantari', sans-serif;
+    align-self: center;
+    margin: 0 auto;
+    width: 70%;
+    flex-flow: row wrap;
+}
+
+.logo{
+    flex: 25%;
+    font-size: 20px;
+    padding: 0 1rem;
+}
+
+.navegacao{
+    flex: 50%;
+    align-items: center;
+    font-size: 20px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.navegacao a{
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    color: 	#696969;
+    font-size: 15px;
+}
+
+.botoes{
+    flex: 25%;
+    font-size: 15px;
+}
+
+.botoes a{
+    text-decoration: none;
+    padding: 0.6rem;
+    color: #696969;
+}
+
+#cadastrar{
+    background-color:#800000;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Body */
+
+.principal{
+    text-align: center;
+    padding: 5rem 0;
+    font-family:'Gantari', sans-serif;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sobre-nos{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#sobre{
+    color:#800000;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.principal p{
+    color:#696969;
+    font-size: 20px;
+}
+
+.principal h1{
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+/* Sobre nos */
+
+.informacoes{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-flow: row wrap;
+}
+
+.informacao{
+    width: 25%;
+    padding: 1.4rem 1rem;
+}
+
+.par-informacao{
+    font-weight: bold;
+    font-family:'Gantari', sans-serif ;
+    padding: 1rem 0 1rem 0;
+}
+
+.informacoes h2{
+    color:#800000;
+    font-weight: bold;
+    font-family:'Gantari', sans-serif ;
+    font-size: 55px;
+
+}
+
+h2+p+p{
+    color: #696969;
+    font-family:'Gantari', sans-serif ;
+}
+
+.vagas{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding:6rem 0 0 0;
+}
+
+.vagas-abertas a{
+    text-decoration: none;
+    color:#800000;
+    font-family:'Gantari', sans-serif ;
+    background-color: #f5eeee;
+    border-radius: 10px;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.vagas-abertas h3{
+    font-family:'Gantari', sans-serif ;
+    font-size: 1.9rem;
+    padding: 1.2rem 0
+
+}
+
+h3+p{
+    color: #696969;
+    font-family:'Gantari', sans-serif ;
+    font-size: 1.1rem;
+}
+
+.imagem{
+    width: 100%;
+    height:auto;
+    padding-top: 3rem;
+}
+
+.profissionais{
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    text-align: center;
+    padding:2rem;
+    margin: 2rem auto;
+}
+
+.profissionais h3{
+    text-align: left;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    width: 40%;
+    font-family:'Gantari', sans-serif ;
+}
+
+.profissoes{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    width: 40%;
+    margin: 1% auto 2rem;
+    border: 1px solid 	#f5f1f1;
+    border-radius: 10px;
+    font-family: 'Gantari', sans-serif ;
+}
+
+.designer{
+    flex: 100%;
+    padding:1rem 1rem;
+    font-weight: bold;
+}
+
+.full{
+    flex: 40%;
+    padding:1rem 1rem
+}
+
+.faixa{
+    flex: 60%;
+    padding:1rem 0.5rem
+}
+
+.full, .faixa p{
+    font-size: 15px;
+    color:#696969
+}
+
+.comentarios{
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    font-family:  'Gantari', sans-serif;
+}
+
+.colaboradores{
+    padding: 3rem 1rem;
+    background-color: rgba(196, 25, 25, 0.03);
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#paragrafo{
+    font-weight: bold;
+    color: #af0606;
+}
+
+.comentarios h4{
+    font-size: 30px;
+    padding: 2rem;
+    color: black;
+}
+
+#nome{
+    font-weight: bold;
+    color: black;
+    padding-top: 0.5rem;
+}
+
+#avatar{
+    padding-top: 0.5rem;
+    color:#696969;
+}
+
+/* Footer */
+
+.rodape{
+    width: 100%;
+    margin: 5rem auto 0;
+    text-align: center;
+    padding:5rem 5rem;
+    font-family:'Gantari', sans-serif  ;
+    background-color: #f8f5f5;
+}
+
+.rodape h2{
+    font-size: 30px;
+}
+
+#paragrafo1{
+    color:#808080;
+    font-size: 17px;
+    padding: 1rem 0;
+}
+
+.formulario{
+    padding: 1.2rem;
+}
+
+.email{
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid #A9A9A9;
+    font-family:'Gantari', sans-serif ;
+    padding: 0.8rem;
+}
+
+.botao{
+    background-color: #800000;
+    border: 1px solid #800000;
+    padding: 0.8rem 1rem;
+    color: white;
+    border-radius: 10px;
+    margin-left: 0.9rem;
+}
+
+.copyright{
+    color: #808080;
+    font-size: 13px;
+    padding: 0.8rem 0;
+}
+
+@media only screen and (max-width:1108px) {
+    .logo, .navbar, .botoes{
+        flex: 100%;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .lista{
+        display: inline-flex;
+    }
+
+    #cadastrar{
+        padding: 0.5rem;
+    }
+
+    .designer, .full, .faixa{
+        flex: 100%;
+    }
+
+    .faixa{
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:742px){
+    body{
+    width: 90%;
+    margin: 0 auto;
+    }
+
+    .principal{
+        padding: 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .sobre-nos{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .lista a{
+        padding: 0.5rem;
+    }
+
+    .informacoes{
+        display: none;
+    }
+
+    .vagas{
+        padding: 2rem;
+    }
+
+    .profissoes{
+        width: 100%;
+    }
+
+    .profissionais{
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .profissionais h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .colaboradores{
+        display:none
+    }
+
+    .rodape{
+        margin-top: 1rem;
+        padding: 1.5rem;
+    }
+
+    .formulario{
+        display: block;
+    }
+
+    .email{
+       display: block;
+       width: 100%;
+   }
+
+   .botao{
+    margin-top: 0.5rem;
+   }
+}
