@@ -319,7 +319,7 @@ h3+p{
     }
 }
 
-@media only screen and (min-width:375px) and (max-width:742px){
+@media only screen and (max-width:742px){
     body{
     width: 90%;
     margin: 0 auto;
@@ -333,6 +333,11 @@ h3+p{
 
     .sobre-nos{
         width: 100%;
+        padding: 2px;
+    }
+
+    .sobre-nos h1{
+        padding: 1px;
     }
 
     .navbar{
@@ -348,7 +353,8 @@ h3+p{
     }
 
     .vagas{
-        padding: 2rem;
+        padding: 0 1rem;
+        width: 100%;
     }
 
     .profissoes{
